@@ -1,6 +1,6 @@
 {
   "name": "react-css-truncate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CSS multiline truncation",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
     "truncate",
     "plugin",
     "ellipsis",
-    "css"
+    "css",
+    "clamp"
   ],
   "author": "Alexey Repin <arepru@gmail.com>",
   "license": "MIT",

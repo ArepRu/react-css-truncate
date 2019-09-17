@@ -17,17 +17,13 @@ const linesTruncate = (linesCount) => {
     return {};
   }
 
-  if (lines === 1) {
-    return {
-      whiteSpace: 'nowrap',
-      textOverflow: 'ellipsis',
-      overflow: 'hidden',
-    };
-  }
-
-  return {
-    WebkitLineClamp: `${lines} !important`,
-    WebkitBoxOrient: 'vertical',
+  return lines === 1 ? {
+    whiteSpace: 'nowrap',
+    textOverflow: 'ellipsis',
+    overflow: 'hidden',
+  } : {
+    '-webkit-line-clamp': `${lines} !important`,
+    '-webkit-box-orient': 'vertical',
     display: '-webkit-box',
     maxHeight: '100%',
     overflow: 'hidden',
