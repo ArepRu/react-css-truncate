@@ -1,0 +1,22 @@
+{
+  "name": "react-css-truncate",
+  "version": "1.0.1",
+  "description": "CSS multiline truncation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArepRu/react-css-truncate"
+  },
+  "homepage": "https://github.com/ArepRu/react-css-truncate",
+  "keywords": [
+    "truncate",
+    "plugin",
+    "ellipsis",
+    "css"
+  ],
+  "author": "Alexey Repin <arepru@gmail.com>",
+  "license": "MIT"
+}

@@ -1,2 +1,2 @@
-# css-truncate
+# react-css-truncate
 CSS multiline truncation
