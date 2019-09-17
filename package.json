@@ -1,6 +1,6 @@
 {
   "name": "react-css-truncate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CSS multiline truncation",
   "main": "index.js",
   "scripts": {

@@ -15,6 +15,6 @@ import linesTruncate from 'react-css-truncate';
 export const LineComponent = () => (
   <div style={linesTruncate(2)}>
     <div style={{...linesTruncate(1), width: '100px'}}></div>
-  <div>
+  </div>
 );
 ```
