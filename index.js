@@ -32,4 +32,4 @@ const linesTruncate = linesCount => {
       };
 };
 
-export default linesTruncate;
+module.exports = linesTruncate;
